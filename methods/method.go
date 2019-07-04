@@ -8,6 +8,9 @@ type emp struct{
 	role string
 }
 
+
+
+
 func main(){
 	emp1 := emp{name: "arun", age: 25, role: "developer"}
 	fmt.Println("the name of employee 1 is", emp1.getName())
